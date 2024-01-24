@@ -62,7 +62,8 @@
                     <li><a>Contact</a></li>
                 </ul>
             </div>
-            <div class="navbar-end mt-5 hidden">
+
+            <div class="navbar-end mt-5 ">
                 <img src="Images/Frame.svg" alt="">
                 <a class="btn bg-gradiant-start  font-semibold  mr-6">Get Ticket</a>
             </div>
@@ -74,13 +75,12 @@
 
         <!-- Carosoul Part -->
         <div class="carousel  mt-3 mb-12 ml-20 mr-16 ">
-            <div id="slide1" class="carousel-item relative w-full">
+            <div id="slide1" class="carousel-item relative w-56 lg:w-full">
                 <img src="Images/1.png" class="w-full" />
                 <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide4" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
-                    <div class=" bg-black  ml-8  mt-48 rounded-xl px-10 py-5 mr-8
-                     ">
+                    <div class=" bg-black  ml-8  mt-48 rounded-xl px-10 py-5 mr-8">
                         <h4 class="text-white p-2 font-extrabold">Meet all the heroes from the field</h4><br>
                         <h4 class="text-[#FFFFFF99] font-medium text-white  p-2">
                             "Encounter field heroes, their stories unfold,<br> inspiring greatness and determination."</h4>
@@ -161,7 +161,7 @@
             </div>
             <div class=" grid grid-cols-1 gap-6  lg:grid-cols-2 gap-3 mt-5 mb-10 ml-32 mr-10 rounded-2xl ">
                 <!-- 1st picture -->
-                <div class="hero max-h-[338px]" style="background-image: url('./Images/2.png');">
+                <div class="hero max-h-[338px]" style="background-image: url('/Images/2.png')">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-neutral-content">
                         <div class="max-w-md mr-2">
@@ -174,7 +174,7 @@
                 </div>
 
                 <!-- 2nd picture -->
-                <div class="hero max-h-[338px]" style="background-image: url('./Images/3.png');">
+                <div class="hero max-h-[338px]" style="background-image: url('/Images/3.png');">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-neutral-content">
                         <div class="max-w-md">
@@ -189,7 +189,7 @@
             </div>
             <!-- 3rd Picture -->
             <div class=" grid grid-span-2 ml-32 mr-10 ">
-                <div class="hero h-[450px] " style="background-image: url('./Images/4.png');">
+                <div class="hero h-[450px] " style="background-image: url('/Images/4.png');">
                     <div class="hero-overlay bg-opacity-60"></div>
                     <div class="hero-content text-neutral-content">
                         <div class="max-w-md">
@@ -530,7 +530,7 @@
     </main>
 
     <!-- footer section -->
-    <footer class="footer p-10 bg-black text-white ">
+    <footer class="footer p-10 bg-black text-white w-full pb-10 text-center bg-title ">
         <aside>
             <p class="text-3xl text-[#FFFFFF] font-bold">Get In Touch</p>
             <p>
@@ -548,23 +548,23 @@
                 </div>
 
         </aside>
-            <nav>
-                <header class="footer-title">Company</header>
+            <nav class="flex-col space-y-2" >
+                <header class="footer-title text-white text-lg font-bold">Company</header>
                 <a class="link link-hover">About us</a>
                 <a class="link link-hover">Leadership</a>
                 <a class="link link-hover">Careers</a>
                 <a class="link link-hover">News & Article</a>
                 <a class="link link-hover">Legal Notice</a>
             </nav>
-            <nav>
-                <header class="footer-title">Support</header>
+            <nav class="flex flex-col space-y-2">
+                <header class="footer-title text-white text-lg font-bold">Support</header>
                 <a class="link link-hover">Help Center</a>
                 <a class="link link-hover">FAQ</a>
                 <a class="link link-hover">Ticket Support</a>
                 <a class="link link-hover">Contact Us</a>
             </nav>
-        <nav>
-            <header class="footer-title">Services</header>
+        <nav class="flex flex-col space-y-2">
+            <header class="footer-title text-white text-lg font-bold">Services</header>
             <a class="link link-hover">Academy</a>
             <a class="link link-hover">Group Lesson</a>
             <a class="link link-hover">Private Lesson</a>
